@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+.modal-image > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+.modal-image img,
+.modal-image-android img {
+  border-radius: 0;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal-image-android > img {
+  height: 100%;
+}
+
+.root {
+  text-align: center;
+  font-family: "Share Tech Mono", monospace !important;
+}
