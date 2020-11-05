@@ -8,6 +8,20 @@
   max-width: 800px;
 }
 
+/*---- mobile images */
+.mobile-image-sub {
+  padding: 10px;
+  /* width: 100%; */
+}
+
+.mobile-image {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ^-------- */
+
 .modal-image img,
 .modal-image-android img {
   border-radius: 0;
@@ -17,8 +31,24 @@
 .modal-image-android > img {
   height: 100%;
 }
+.root h2 {
+  color: #3f51b5;
+}
 
 .root {
   text-align: center;
   font-family: "Share Tech Mono", monospace !important;
+}
+
+/* root for mobile images */
+.root-mobile-pages {
+  margin: auto;
+  width: 50%;
+  display: table;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-image {
+    display: block;
+  }
 }
